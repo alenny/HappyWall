@@ -1,0 +1,34 @@
+{
+  "name": "HappyWall",
+  "version": "0.1.0",
+  "description": "Attach your happy times (photos, videos, etc.) on the white wall",
+  "keywords": [
+    "happywall",
+    "photo",
+    "video",
+    "wall",
+    "time"
+  ],
+  "repository": "git://github.com/alenny/HappyWall.git",
+  "author": "Zhuyun DAI",
+  "dependencies": {
+    "express": "4.0.x"
+  },
+  "devDependencies": {
+    "should": "3.3.x",
+    "mocha": "1.18.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/alenny/HappyWall/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": ""
+    "test": ""
+  }
+}
