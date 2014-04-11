@@ -1,18 +1,21 @@
 {
   "name": "HappyWall",
   "version": "0.1.0",
-  "description": "Attach your happy times (photos, videos, etc.) on the white wall",
+  "description": "Use this web application to attach your happy times (photos, videos, etc.) on the white wall",
   "keywords": [
     "happywall",
     "photo",
     "video",
     "wall",
-    "time"
+    "time",
+    "node"
   ],
   "repository": "git://github.com/alenny/HappyWall.git",
   "author": "Zhuyun DAI",
   "dependencies": {
-    "express": "4.0.x"
+    "express": "4.0.x",
+    "ejs": "1.0.x",
+    "connect": "2.14.x"
   },
   "devDependencies": {
     "should": "3.3.x",
@@ -28,7 +31,6 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "start": ""
-    "test": ""
+    "test": "make test"
   }
 }
