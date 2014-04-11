@@ -1,0 +1,1 @@
+Attach your happy time (photos, videos, etc.) on the white wall!
