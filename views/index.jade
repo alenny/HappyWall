@@ -1,0 +1,17 @@
+﻿doctype html
+html(lang='en')
+    head
+        title='Happy Wall'
+    body
+        h2 Welcome to Happy Wall!
+        | Upload your happy time:&nbsp; 
+        input#files(type='file', multiple)
+        input(type='button', value='Start Uploading', onclick='uploadFiles()')
+        #container
+            a(href='/uploads/') pic
+        script.
+            function uploadFiles(evt) {
+                var files = document.getElementById('files').files;
+
+            };
+            
